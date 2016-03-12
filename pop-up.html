@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Latest Popoup Window Script</title>
+<link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<style type="text/css">
+.link-style
+{
+color:#000;
+text-decoration:none;
+}
+.popup-content-container
+{
+top:0%;
+left:0%;
+right:0%;
+bottom:0%;
+width:100%;
+height:100%;
+position:absolute;
+background:#fff;
+}
+.popup-content-container > div
+{
+position:relative;
+width:500px;
+height:auto;
+display:block;
+margin:20% auto;
+background:#fff;
+display:none;
+border:1px solid #989898;
+background:-moz-linear-gradient(#e5e5e5, #fff);
+background:-o-linear-gradient(#e5e5e5, #fff);
+background:-webkit-linear-gradient(#e5e5e5, #fff);
+box-shadow: 0px 2px 10px #000;
+color:#000;
+}
+
+.close
+{
+position:absolute;
+text-decoration:none;
+right:-8px;
+top: -8px;
+background:#989898;
+border-radius:20px;
+width:20px;
+height:20px;
+text-align:center;
+color:#fff;
+font-weight:bold;
+}
+.close:hover
+{
+background:#000;
+color:#fff;
+border:1px solid #000;
+}
+p
+{
+text-align:justify;
+padding-left:20px;
+padding-right:20px;
+line-height:30px;
+font-family:raleway;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<div class="popup-content-container" >
+<a href="#" onclick="document.getElementById('display-popup').style.display='block';" class="link-style">Click to Open PopUp WIndow</a>
+
+    <div id="display-popup">
+	    <a href="#" class="close" onclick="document.getElementById('display-popup').style.display='none'">X</a>
+        <p>
+        Questions asking for code must demonstrate a minimal understanding of the problem being solved. Include attempted solutions, why they didn't work, and the expected results. See also: Stack Overflow question checklist" – Bojangles, Chris, Doorknob, user568109, allprog
+        </p>
+    </div>
+</div>
+
+
+
+</body>
+</html>
